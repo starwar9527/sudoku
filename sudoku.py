@@ -11,6 +11,12 @@ I = [
         [0, 2, 0, 0, 0, 1, 0, 0, 0]
      ]
 
+def pretty_print():
+    for i in I:
+        print(i)
+
+def main():
+    pretty_print()
+
 if __name__ == "__main__":
-    #print(I)
-        pass
+    main()
